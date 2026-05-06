@@ -1,0 +1,17 @@
+[package]
+name = "blog-wasm"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gloo-net.workspace = true
+js-sys.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+serde-wasm-bindgen.workspace = true
+wasm-bindgen.workspace = true
+wasm-bindgen-futures.workspace = true
+web-sys = { workspace = true, features = ["Window", "Storage", "console"] }

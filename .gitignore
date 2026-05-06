@@ -1,0 +1,9 @@
+/target
+**/target
+.env
+blog-server/.env
+.blog_token
+.sqlx
+dist
+pkg
+node_modules

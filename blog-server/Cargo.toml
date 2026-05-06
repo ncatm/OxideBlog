@@ -1,0 +1,30 @@
+[package]
+name = "blog-server"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+actix-cors.workspace = true
+actix-web.workspace = true
+actix-web-httpauth.workspace = true
+anyhow.workspace = true
+argon2.workspace = true
+async-trait.workspace = true
+chrono.workspace = true
+dotenvy.workspace = true
+futures-util.workspace = true
+jsonwebtoken.workspace = true
+prost.workspace = true
+prost-types.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sqlx.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tonic.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+[build-dependencies]
+tonic-build.workspace = true
+protoc-bin-vendored = "3"

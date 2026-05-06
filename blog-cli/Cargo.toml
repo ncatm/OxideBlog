@@ -1,0 +1,11 @@
+[package]
+name = "blog-cli"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+blog-client = { path = "../blog-client" }
+clap = { version = "4", features = ["derive"] }
+serde_json.workspace = true
+tokio.workspace = true
